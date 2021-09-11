@@ -20,8 +20,6 @@
 
         --primery--color: #facb36;
     }
-
-
     #nav{
         height: 7rem;
     }
@@ -176,7 +174,7 @@
 
     #about{
         margin-top: 5rem;
-        padding-bottom: 5rem;
+        padding-bottom: 3rem;
     }
 
     .about__logo{
@@ -191,6 +189,12 @@
 
     .about__subscribe input{
         width: 90%;
+    }
+
+    .about__btn button{
+        height: 3rem;
+        width: 3rem;
+        font-size: var(--size--title-50);
     }
 }
 

@@ -19,6 +19,8 @@
     --icon--color: #d12509;
     --bg--left--arabica: #000000;
     --bg--input--color: #e8e8e8;
+    --bg--btn--footer--color: #2c2c2c;
+    --btn--footer--color: #c5c5c4;
 
     /* text color */
     --primery--color: #facb36;
@@ -663,7 +665,7 @@ li{
 #about{
     margin-top: 10rem;
     background-color: var(--bg--footer--color);
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
 }
 
 #about .container{
@@ -709,6 +711,24 @@ li{
 
 .about__subscribe:hover button{
     cursor: pointer;
+}
+
+.about__btn{
+    margin-left: auto;
+}
+
+.about__btn button{
+    height: 6rem;
+    width: 6rem;
+    font-size: var(--size--title-item-34);
+    background-color: var(--bg--btn--footer--color);
+    color: var(--btn--footer--color);
+    border: none;
+}
+
+.about__btn:hover button{
+    cursor: pointer;
+    color: var(--primery--color);
 }
 
 /* footer */
